@@ -40,11 +40,13 @@ public class MainActivity extends AppCompatActivity {
         AHBottomNavigationItem ahBottomHome = new AHBottomNavigationItem(R.string.home,R.drawable.ic_home_outline,R.color.colorAccent);
         AHBottomNavigationItem ahBottomFavorites= new AHBottomNavigationItem(R.string.downloading,R.drawable.ic_favorite_outline,R.color.colorAccent);
         AHBottomNavigationItem ahBottomVideos= new AHBottomNavigationItem(R.string.completes,R.drawable.ic_videos,R.color.colorAccent);
-
+        ahBottomNavigation.setForceTint(true);
+        ahBottomNavigation.setAccentColor(R.color.colorAccent);
         //agregando los items al toolbar
         this.ahBottomNavigation.addItem(ahBottomHome);
         this.ahBottomNavigation.addItem(ahBottomFavorites);
         this.ahBottomNavigation.addItem(ahBottomVideos);
+
     }
 
 
