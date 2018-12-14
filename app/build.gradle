@@ -10,6 +10,7 @@ android {
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
 
     }
     buildTypes {
@@ -23,8 +24,6 @@ android {
         targetCompatibility = '1.8'
     }
 }
-
-
 
 repositories {
     maven {
@@ -46,8 +45,8 @@ dependencies {
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.8.0'
     //navigation
-    implementation 'com.aurelhubert:ahbottomnavigation:2.1.0'
-
+    //implementation 'com.ashokvarma.android:bottom-navigation-bar:2.1.0'
+    implementation 'it.sephiroth.android.library.bottomnavigation:bottom-navigation:3.0.0'
     //butterknife
     implementation 'com.jakewharton:butterknife:9.0.0-rc2'
     annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc2'

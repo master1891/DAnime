@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark"
+    app:bbn_badgeColor="#FFFF0000"
+    app:bbn_itemAnimationDuration="200"
+    app:bbn_alwaysShowLabels="false"
+    app:bbn_itemColorActive="@color/colorAccent"
+    app:bbn_rippleColor="#33ffffff">
+    <item
+        android:id="@+id/mn_main"
+        android:icon="@drawable/ic_home"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/mn_favorite"
+        android:icon="@drawable/ic_heart"
+        android:title="@string/favorites" />
+    <item
+        android:id="@+id/mn_downloaed"
+        android:icon="@drawable/ic_file"
+        android:title="Videos" />
+    <item
+        android:id="@+id/mn_downloading"
+        android:icon="@drawable/ic_download"
+        android:title="Descargando" />
+</menu>
